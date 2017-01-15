@@ -86,8 +86,6 @@ if ('addEventListener' in document) {
   document.addEventListener('deviceready', function() {
     app.dispositivoListo();
   }, false);
-
   document.addEventListener("offline", function(){ alert("SIN CONEXION") }, false);
-  document.addEventListener("online", function(){ alert("CON CONEXION") }, false);
 }
 
